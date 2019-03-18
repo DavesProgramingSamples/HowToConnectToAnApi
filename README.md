@@ -43,7 +43,6 @@ We’ll be focusing specifically on Web APIs, which allow a web server to intera
 You may be familiar with the concept of a **CRUD** app, which stands for Create, Read, Update, Delete. Any programming language can be used to make a CRUD app with various methods. A web API uses HTTP requests that correspond to the CRUD verbs.
 
 
-
 | Action  | HTTP       |  Method Definition             |  
 |---------|------------|--------------------------------|
 | Create  | POST       |  Creates a new resource        |  
@@ -51,7 +50,7 @@ You may be familiar with the concept of a **CRUD** app, which stands for Create,
 | Update  | PUT/PATCH  |  Updates an existing resource  |  
 | Delete  | DELETE     |  Deletes a resource            |  
 
-> If you’ve heard REST and RESTful APIs, that is simply referring to a set of standards that conform to a specific architectural style. > Most web apps do, or aim to conform to REST standards. Overall, there are a lot of terms, acronyms and concepts to understand – HTTP, > API, REST – so it’s normal to feel confused and frustrated, especially when API documentation assumes you already know what to do.
+> If you’ve heard REST and RESTful APIs, that is simply referring to a set of standards that conform to a specific architectural style. Most web apps do, or aim to conform to REST standards. Overall, there are a lot of terms, acronyms and concepts to understand – HTTP, API, REST – so it’s normal to feel confused and frustrated, especially when API documentation assumes you already know what to do.
 
 ## Setting Up
 
