@@ -51,10 +51,7 @@ You may be familiar with the concept of a **CRUD** app, which stands for Create,
 | Update  | PUT/PATCH  |  Updates an existing resource  |  
 | Delete  | DELETE     |  Deletes a resource            |  
 
-
-```
-If you’ve heard REST and RESTful APIs, that is simply referring to a set of standards that conform to a specific architectural style. Most web apps do, or aim to conform to REST standards. Overall, there are a lot of terms, acronyms and concepts to understand – HTTP, API, REST – so it’s normal to feel confused and frustrated, especially when API documentation assumes you already know what to do.
-```
+> If you’ve heard REST and RESTful APIs, that is simply referring to a set of standards that conform to a specific architectural style. > Most web apps do, or aim to conform to REST standards. Overall, there are a lot of terms, acronyms and concepts to understand – HTTP, > API, REST – so it’s normal to feel confused and frustrated, especially when API documentation assumes you already know what to do.
 
 ## Setting Up
 
