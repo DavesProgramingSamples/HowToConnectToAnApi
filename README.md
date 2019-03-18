@@ -30,7 +30,7 @@ We are going to write from scratch a web app that connects to an API (in our cas
 
 It will look like this:
 
-### tbd - add screenshot ###
+![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/screenshot_webpage.PNG "screenshot")
 
 Let's get started.
 
@@ -229,7 +229,8 @@ In order to display information on the front end of a site, we’ll be working w
 
 By the end, our page will consist of a logo image followed by a container with multiple card elements – one for each film. Each card will have a heading and a paragraph, that contains the title and description of each film. Here’s what that looks like, with only essential CSS loaded in:
 
-*** tbd screenshot hinzufügen ***
+![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/screenshot_webpage_simplestyle.PNG "screenshot")
+
 If you remember, our *index.html* just has a root div – `<div id="root">` right now. We’ll access it with `getElementById()`. *We can briefly remove all the previous code we’ve written for now, which we’ll add back in just a moment*.
 
 ### script.js
