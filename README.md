@@ -1,6 +1,6 @@
 This article is based on: https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 
-# How to Connect to an API with JavaScript
+# How to Connect to an REST-API with JavaScript
 
 A big part of working with JavaScript is knowing how to connect to APIs. 
 As a fledgling developer, you may have been told at some point to just “play around with some APIs!” 
