@@ -15,8 +15,8 @@ further muddy the waters on an already difficult and confusing topic for beginne
 - Basic knowledge of [JavaScript syntax and datatypes](https://www.sitepoint.com/beginners-guide-javascript-variables-and-datatypes/).
 - Basic knowledge of working with [JSON and JavaScript objects](https://www.taniarascia.com/how-to-use-json-data-with-php-or-javascript/). This brief article will clear it up completely.
 - Node.js and JSON Server installed on your computer
-  Download the latest version of [Node.js](https://nodejs.org) and install it on your computer.
-  Follow the instructions in the getting [started section](https://github.com/typicode/json-server#getting-started) to install the JSON Server.
+- Download the latest version of [Node.js](https://nodejs.org) and install it on your computer.
+- Follow the instructions in the getting [started section](https://github.com/typicode/json-server#getting-started) to install the JSON Server.
   
 Everything else we’ll cover along the way.
 
