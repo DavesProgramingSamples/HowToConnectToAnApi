@@ -172,7 +172,7 @@ data.forEach(movie => {
 
 ```
 
-Using Inspect on index.html and viewing the console, you should see the titles of 20 Ghibli films. Success!
+Using Inspect (Strg + Shift + I for Chrome Browsers) on index.html and viewing the console, you should see the titles of 20 Ghibli films. Success!
 
 The only thing we’re missing here is some way to deal with errors. What if the wrong URL is used, or the URL broke and nothing was being displayed? When an HTTP request is made, the response returns with [HTTP status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). `404` is the most well-known response, meaning Not Found, and `200` OK is a successful request.
 
@@ -221,7 +221,7 @@ We’ve successfully used a `GET` HTTP request to retrieve (or consume) the API 
 `XMLHttpRequest` is a widely supported built-in method of making requests. There is also a newer [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which can be used for the same purpose, which is simpler but has less browser support.
 
 ## Displaying the Data
-In order to display information on the front end of a site, we’ll be working with the DOM, which is actually an API itself that allows JavaScript to communicate with HTML. If you have no experience at all with the DOM, here is a [link](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom) to a DigitalOcean that will clarify what the DOM is and how the DOM differs from HTML source code.
+In order to display information on the front end of a site, we’ll be working with the DOM, which is actually an API itself that allows JavaScript to communicate with HTML. If you have no experience at all with the DOM, here is a [link](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom) to a DigitalOcean Site that will clarify what the DOM is and how the DOM differs from HTML source code.
 
 By the end, our page will consist of a logo image followed by a container with multiple card elements – one for each film. Each card will have a heading and a paragraph, that contains the title and description of each film. Here’s what that looks like, with only essential CSS loaded in:
 
