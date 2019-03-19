@@ -154,7 +154,7 @@ request.onload = function () {
 request.send();
 ```
 
-##Working with the JSON response
+## Working with the JSON response
 Now we’ve received a response from our HTTP request, and we can work with it. However, the response is in JSON, and we need to convert that JSON into JavaScript objects in order to work with it.
 
 We’re going to use `JSON.parse()` to parse the response, and create a `data` variable that contains all the JSON as an array of JavaScript objects. Using `forEach()`, we’ll console log out the title of each film to ensure it’s working properly.
@@ -220,7 +220,7 @@ We’ve successfully used a `GET` HTTP request to retrieve (or consume) the API 
 
 `XMLHttpRequest` is a widely supported built-in method of making requests. There is also a newer [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which can be used for the same purpose, which is simpler but has less browser support.
 
-##Displaying the Data
+## Displaying the Data
 In order to display information on the front end of a site, we’ll be working with the DOM, which is actually an API itself that allows JavaScript to communicate with HTML. If you have no experience at all with the DOM, here is a [link](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom) to a DigitalOcean that will clarify what the DOM is and how the DOM differs from HTML source code.
 
 By the end, our page will consist of a logo image followed by a container with multiple card elements – one for each film. Each card will have a heading and a paragraph, that contains the title and description of each film. Here’s what that looks like, with only essential CSS loaded in:
