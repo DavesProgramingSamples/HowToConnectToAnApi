@@ -120,6 +120,11 @@ Now we have HTML and CSS set up, so you can make **scripts.js** and we’ll cont
 
 # Connecting to the API
 
+**Make sure that you have completed the previously mentioned points**
+- Node.js and JSON Server installed on your computer
+- Download the latest version of [Node.js](https://nodejs.org) and install it on your computer.
+- Follow the instructions in the getting [started section](https://github.com/typicode/json-server#getting-started) to install the JSON Server.
+
 Let’s take a look at the JSON Server. The JSON Server gives you the abilitiy to get a Fake REST API real quickly. We will create our own endpoint. In our example we will demonstrate how to show the Data from out API on a webpage. It is perfect to show junior developers how to interact with resources using HTTP requests, which is perfect for us here. Since an API can be accessed by many different methods – JavaScript, PHP, Ruby, Python and so on – the documentation for most APIs doesn’t tend to give specific instructions for how to connect.
 
 For our example I created a json File containing the Top 10 Movies of The Internet Movie Database and saved the content to a json file (imdbfilms.json) 
