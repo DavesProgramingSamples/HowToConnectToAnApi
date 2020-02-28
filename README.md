@@ -121,7 +121,7 @@ Now we have HTML and CSS set up, so you can make **scripts.js** and we’ll cont
 # Connecting to the API
 
 **Make sure that you have completed the previously mentioned points**
-- Node.js and JSON Server installed on your computer
+- Node.js and JSON Server installed on your computer (Node.js is already installed on school computers) 
 - Download the latest version of [Node.js](https://nodejs.org) and install it on your computer.
 - Follow the instructions in the getting [started section](https://github.com/typicode/json-server#getting-started) to install the JSON Server.
 
