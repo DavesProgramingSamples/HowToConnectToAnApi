@@ -241,9 +241,11 @@ So create a file called script.js and save it.
 Now open the index.html in the Chrome Browser, open the Developer Tool (Strg + Shift + I) and switch to the Network tab. Reload the page.
 You can see that the request has been made with a status response 200. 200 is the standard response for successful HTTP requests.
 If you are interested in further HTTP status visit: [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-
+<br>
+<br>
 ![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool1.JPG "screenshot")
-
+<br>
+<br>
 If you click on films and on response you can see that the data became loaded from the server.
 ![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool2.JPG "screenshot")
 
