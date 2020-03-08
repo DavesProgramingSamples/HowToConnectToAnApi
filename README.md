@@ -259,6 +259,7 @@ request.send();
 Now we’ve received a response from our HTTP request, and we can work with it. However, the response is in JSON, and we need to convert that JSON into JavaScript objects in order to work with it.
 
 We’re going to use `JSON.parse()` to parse the response, and create a `data` variable that contains all the JSON as an array of JavaScript objects. Using `forEach()`, we’ll console log out the title of each film to ensure it’s working properly.
+So create a file called script.js and save it.
 
 ### scripts.js
 
