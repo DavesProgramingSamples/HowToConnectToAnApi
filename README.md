@@ -424,7 +424,7 @@ data.forEach(movie => {
 });
 ```
 
-Instead of `console.log`, we’ll use `textContent` to set the text of an HTML element to the data from the API. I’m using `substring()` on the `p` element to limit the description and keep each card equal length.
+Now we will change the javaScript Code to the following. Instead of `console.log`, we’ll use `textContent` to set the text of an HTML element to the data from the API. I’m using `substring()` on the `p` element to limit the description and keep each card equal length.
 
 ### script.js
 ```javascript
