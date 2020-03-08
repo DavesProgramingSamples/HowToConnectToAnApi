@@ -227,7 +227,7 @@ So create an file named imdbfilms.json and save it.
 }
 ```
 
-Start the JSON Server with the following command: json-server --watch imdbfilms.json
+So start a command line window and switch to the folder where you saved the imdbfilms.json file. Start the JSON Server with the following command: json-server --watch imdbfilms.json
 
 Now the API is ready to be used. You can access the endpoint via http://localhost:3000/films 
 
