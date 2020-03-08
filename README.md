@@ -297,6 +297,8 @@ Using Inspect (Strg + Shift + I for Chrome Browsers) on index.html and viewing t
 
 The only thing we’re missing here is some way to deal with errors. What if the wrong URL is used, or the URL broke and nothing was being displayed? When an HTTP request is made, the response returns with [HTTP status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). `404` is the most well-known response, meaning Not Found, and `200` OK is a successful request.
 
+## Dealing with Errors
+
 Let’s just wrap our code in an `if` statement, succeeding on any response in the 200-300 range, and log out an error if the request fails. You can mess up the URL to test the error.
 
 ### script.js
