@@ -54,7 +54,7 @@ You may be familiar with the concept of a **CRUD** app, which stands for Create,
 
 What is our objective? We want to get the data for the top 10 IMDB movies and display the titles and descriptions in a grid. For some background knowledge, IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
 
-We’re going to start by creating an **index.html** file in a new directory. The project will only consist of **index.html, style.css**, and **scripts.js** at the end. This HTML skeleton just links to a CSS and JavaScript file, loads in a font, and contains a div with a `root` id. This file is complete and will not change. We’ll be using JavaScript to add everything from here out.
+We’re going to start by creating an **index.html** file in a new directory. The project will only consist of **index.html, style.css**, and **script.js** at the end. This HTML skeleton just links to a CSS and JavaScript file, loads in a font, and contains a div with a `root` id. This file is complete and will not change. We’ll be using JavaScript to add everything from here out.
 
 ### index.html
 ```xml
@@ -76,7 +76,7 @@ We’re going to start by creating an **index.html** file in a new directory. Th
 
   <div id="root"></div>
 
-  <script src="scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
@@ -116,7 +116,7 @@ Since this article is focused on the concepts of APIs and JavaScript, I will not
 
 ```
 
-Now we have HTML and CSS set up, so you can make **scripts.js** and we’ll continue from there.
+Now we have HTML and CSS set up, so you can make **script.js** and we’ll continue from there.
 
 # Connecting to the API
 
@@ -237,7 +237,7 @@ Before we try to put anything on the front end of the website, let’s open a co
 
 We’ll create a ```request variable``` and assign a new ```XMLHttpRequest``` object to it. Then we’ll open a new connection with the ```open()``` method – in the arguments we’ll specify the type of request as ```GET``` as well as the URL of the API endpoint. The request completes and we can access the data inside the ```onload``` function. When we’re done, we’ll send the request.
 
-### scripts.js
+### script.js
 
 ```javascript
 // Create a request variable and assign a new XMLHttpRequest object to it.
@@ -261,7 +261,7 @@ Now we’ve received a response from our HTTP request, and we can work with it. 
 We’re going to use `JSON.parse()` to parse the response, and create a `data` variable that contains all the JSON as an array of JavaScript objects. Using `forEach()`, we’ll console log out the title of each film to ensure it’s working properly.
 So create a file called script.js and save it.
 
-### scripts.js
+### script.js
 
 ```javascript
 // Begin accessing JSON data here
@@ -280,7 +280,7 @@ The only thing we’re missing here is some way to deal with errors. What if the
 
 Let’s just wrap our code in an `if` statement, succeeding on any response in the 200-300 range, and log out an error if the request fails. You can mess up the URL to test the error.
 
-### scripts.js
+### script.js
 ```javascript
 // Begin accessing JSON data here
 var data = JSON.parse(this.response);
@@ -296,7 +296,7 @@ if (request.status >= 200 && request.status < 400) {
 
 Here is the entire code so far.
 
-### scripts.js
+### script.js
 ```javascript
 var request = new XMLHttpRequest();
 
@@ -405,7 +405,7 @@ data.forEach(movie => {
 
 Instead of `console.log`, we’ll use `textContent` to set the text of an HTML element to the data from the API. I’m using `substring()` on the `p` element to limit the description and keep each card equal length.
 
-### scripts.js
+### script.js
 ```javascript
 data.forEach(movie => {
   // Create a div with a card class
@@ -438,9 +438,9 @@ errorMessage.textContent = `Gah, it's not working!`;
 app.appendChild(errorMessage);
 ```
 
-And we’re done! Here is the final scripts.js code.
+And we’re done! Here is the final script.js code.
 
-### scripts.js
+### script.js
 ```javascript
 const app = document.getElementById('root');
 
