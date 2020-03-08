@@ -236,6 +236,7 @@ Now the API is ready to be used. You can access the endpoint via http://localhos
 Before we try to put anything on the front end of the website, let’s open a connection the API. We’ll do so using ```XMLHttpRequest``` objects, which is a way to open files and make an HTTP request.
 
 We’ll create a ```request variable``` and assign a new ```XMLHttpRequest``` object to it. Then we’ll open a new connection with the ```open()``` method – in the arguments we’ll specify the type of request as ```GET``` as well as the URL of the API endpoint. The request completes and we can access the data inside the ```onload``` function. When we’re done, we’ll send the request.
+So create a file called script.js and save it.
 
 ### script.js
 
@@ -259,7 +260,7 @@ request.send();
 Now we’ve received a response from our HTTP request, and we can work with it. However, the response is in JSON, and we need to convert that JSON into JavaScript objects in order to work with it.
 
 We’re going to use `JSON.parse()` to parse the response, and create a `data` variable that contains all the JSON as an array of JavaScript objects. Using `forEach()`, we’ll console log out the title of each film to ensure it’s working properly.
-So create a file called script.js and save it.
+
 
 ### script.js
 
