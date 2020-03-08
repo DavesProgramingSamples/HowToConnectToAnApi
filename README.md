@@ -242,9 +242,11 @@ Now open the index.html in the Chrome Browser, open the Developer Tool (Strg + S
 <p>You can see that the request has been made with a status response 200. 200 is the standard response for successful HTTP requests.
 If you are interested in further HTTP status visit: [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 </p>
+
 ![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool1.JPG "screenshot")
+
 <p>
-If you click on films and on response you can see that the data became loaded from the server.
+If you click on films and on Response you can see that the data became loaded from the server.
 </p>
 ![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool2.JPG "screenshot")
 
