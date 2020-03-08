@@ -127,8 +127,106 @@ Now we have HTML and CSS set up, so you can make **scripts.js** and we’ll cont
 
 Let’s take a look at the JSON Server. The JSON Server gives you the abilitiy to get a Fake REST API real quickly. We will create our own endpoint. In our example we will demonstrate how to show the Data from out API on a webpage. It is perfect to show junior developers how to interact with resources using HTTP requests, which is perfect for us here. Since an API can be accessed by many different methods – JavaScript, PHP, Ruby, Python and so on – the documentation for most APIs doesn’t tend to give specific instructions for how to connect.
 
-For our example I created a json File containing the Top 10 Movies of The Internet Movie Database and saved the content to a json file (imdbfilms.json) 
+For our example I created a json File containing the Top 10 Movies of The Internet Movie Database and saved the content to a json file (imdbfilms.json). 
 The file contains the datastructure and the content similiar to a database.
+So create an file named imdbfilms.json and save it.
+```json
+{
+  "films": [
+    {
+      "id": "abcd1",
+	  "rank": "1",
+      "title": "The Shawshank Redemption",
+	  "rating": "9,3",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "director": "Frank Darabont",
+      "stars": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
+    },
+	{
+      "id": "qwer1",
+	  "rank": "2",
+      "title": "The Godfather",
+	  "rating": "9,2",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "director": "Francis Ford Coppola",
+      "stars": ["Marlon Brando", "Al Pacino", "James Caan"]
+    },
+	{
+      "id": "cvht3",
+	  "rank": "3",
+      "title": "The Dark Knight",
+	  "rating": "9,0",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "director": "Christopher Nolan",
+      "stars": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
+    },
+	{
+      "id": "ertb8",
+	  "rank": "4",
+      "title": "The Godfather: Part II",
+	  "rating": "9,0",
+      "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+      "director": "Francis Ford Coppola",
+      "stars": ["Al Pacino", "Robert De Niro", "Robert Duvall"]
+    },
+	{
+      "id": "werg2",
+	  "rank": "5",
+      "title": "The Lord of the Rings: The Return of the King",
+	  "rating": "8,9",
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "director": "Peter Jackson",
+      "stars": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"]
+    },
+	{
+      "id": "msge9",
+	  "rank": "6",
+      "title": "Pulp Fiction",
+	  "rating": "8,9",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "director": "Quentin Tarantino",
+      "stars": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
+    },
+	{
+      "id": "mfgr4",
+	  "rank": "7",
+      "title": "Schindler's List",
+	  "rating": "8,9",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "director": "Steven Spielberg",
+      "stars": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"]
+    },
+	{
+      "id": "mfgr4",
+	  "rank": "8",
+      "title": "12 Angry Men",
+	  "rating": "8,9",
+      "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+      "director": "Sidney Lumet",
+      "stars": ["Henry Fonda", "Lee J. Cobb", "Martin Balsam"]
+    },
+	{
+      "id": "qerg5",
+	  "rank": "9",
+      "title": "Fight Club",
+	  "rating": "8,8",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "director": "David Fincher",
+      "stars": ["Brad Pitt", "Edward Norton", "Meat Loaf"]
+    },
+	{
+      "id": "adcd3",
+	  "rank": "10",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+	  "rating": "8,8",
+      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "director": "Peter Jackson",
+      "stars": ["Elijah Wood", "Ian McKellen", "Orlando Bloom"]
+    }
+  ]
+}
+```
+
 Start the JSON Server with the following command: json-server --watch imdbfilms.json
 
 Now the API is ready to be used. You can access the endpoint via http://localhost:3000/films 
