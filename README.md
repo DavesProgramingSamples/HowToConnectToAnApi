@@ -350,7 +350,7 @@ By the end, our page will consist of a logo image followed by a container with m
 
 ![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/screenshot_webpage_simplestyle.PNG "screenshot")
 
-If you remember, our *index.html* just has a root div – `<div id="root">` right now. We’ll access it with `getElementById()`. *We can briefly remove all the previous code we’ve written for now, which we’ll add back in just a moment*.
+If you remember, our *index.html* just has a root div – `<div id="root">` right now. We’ll access it with `getElementById()`. *We can briefly remove all the previous code in the script.js file we’ve written for now, which we’ll add back in just a moment*.
 
 ### script.js
 ```
