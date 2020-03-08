@@ -247,6 +247,7 @@ If you are interested in further HTTP status visit: [List of HTTP status codes](
 <br>
 <br>
 If you click on films and on response you can see that the data became loaded from the server.
+<br>
 ![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool2.JPG "screenshot")
 
 
