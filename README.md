@@ -365,7 +365,7 @@ The first thing in our website is the logo, which is an `img` element. We’ll c
 const logo = document.createElement('img');
 ```
 
-An empty `img` is no good, so we’ll set the `src` attribute to `logo.png`. The image can be found here. [logo.png](https://github.com/DavesProgramingSamples/HowToConnectToAnApi/blob/master/logo.png) So download it i and save it to the same folder as the other files.
+An empty `img` is no good, so we’ll set the `src` attribute to `logo.png`. The image can be found here: ([logo.png](https://github.com/DavesProgramingSamples/HowToConnectToAnApi/blob/master/logo.png)) So download it i and save it to the same folder as the other files.
 ```
 logo.src = 'logo.png';
 ```
