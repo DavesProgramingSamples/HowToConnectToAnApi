@@ -238,19 +238,6 @@ Before we try to put anything on the front end of the website, let’s open a co
 
 We’ll create a ```request variable``` and assign a new ```XMLHttpRequest``` object to it. Then we’ll open a new connection with the ```open()``` method – in the arguments we’ll specify the type of request as ```GET``` as well as the URL of the API endpoint. The request completes and we can access the data inside the ```onload``` function. When we’re done, we’ll send the request.
 So create a file called script.js and save it. 
-Now open the index.html in the Chrome Browser, open the Developer Tool (Strg + Shift + I) and switch to the Network tab. Reload the page.
-<p>You can see that the request has been made with a status response 200. 200 is the standard response for successful HTTP requests.
-If you are interested in further HTTP status visit: [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-</p>
-
-![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool1.JPG "screenshot")
-
-<p>
-If you click on films and on Response you can see that the data became loaded from the server.
-</p>
-
-![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool2.JPG "screenshot")
-
 
 ### script.js
 
@@ -269,6 +256,23 @@ request.onload = function () {
 // Send request
 request.send();
 ```
+
+
+Now open the index.html in the Chrome Browser, open the Developer Tool (Strg + Shift + I) and switch to the Network tab. Reload the page.
+<p>You can see that the request has been made with a status response 200. 200 is the standard response for successful HTTP requests.
+If you are interested in further HTTP status visit: [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+</p>
+
+![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool1.JPG "screenshot")
+
+<p>
+If you click on films and on Response you can see that the data became loaded from the server.
+</p>
+
+![screenshot](https://raw.githubusercontent.com/DavesProgrammingSamples/HowToConnectToAnApi/master/devtool2.JPG "screenshot")
+
+
+
 
 ## Working with the JSON response
 Now we’ve received a response from our HTTP request, and we can work with it. However, the response is in JSON, and we need to convert that JSON into JavaScript objects in order to work with it.
