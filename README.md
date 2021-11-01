@@ -232,7 +232,7 @@ So start a command line window and switch to the folder where you saved the imdb
 Now the API is ready to be used. You can access the endpoint via http://localhost:3000/films 
 
 
-## Retrieving the data with an HTTP request
+## Retrieving the data with a HTTP request
 
 Before we try to put anything on the front end of the website, let’s open a connection the API. We’ll do so using ```XMLHttpRequest``` objects, which is a way to open files and make an HTTP request.
 
